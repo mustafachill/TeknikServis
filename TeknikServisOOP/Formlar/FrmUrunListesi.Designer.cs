@@ -32,9 +32,14 @@
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.TxtID = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
+            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.BtnGuncelle = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.TxtKategori = new DevExpress.XtraEditors.LookUpEdit();
+            this.LookUpEdit1 = new DevExpress.XtraEditors.LookUpEdit();
             this.TxtStok = new DevExpress.XtraEditors.TextEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.TxtSatisFiyat = new DevExpress.XtraEditors.TextEdit();
@@ -45,22 +50,17 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.TxtUrunAd = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.TxtID = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtKategori.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtID.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LookUpEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtStok.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtSatisFiyat.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtAlisFiyat.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtMarka.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtUrunAd.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtID.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // gridControl1
@@ -88,11 +88,11 @@
             this.groupControl1.Controls.Add(this.TxtID);
             this.groupControl1.Controls.Add(this.labelControl7);
             this.groupControl1.Controls.Add(this.simpleButton4);
-            this.groupControl1.Controls.Add(this.simpleButton3);
+            this.groupControl1.Controls.Add(this.BtnGuncelle);
             this.groupControl1.Controls.Add(this.simpleButton2);
             this.groupControl1.Controls.Add(this.simpleButton1);
             this.groupControl1.Controls.Add(this.labelControl6);
-            this.groupControl1.Controls.Add(this.TxtKategori);
+            this.groupControl1.Controls.Add(this.LookUpEdit1);
             this.groupControl1.Controls.Add(this.TxtStok);
             this.groupControl1.Controls.Add(this.labelControl4);
             this.groupControl1.Controls.Add(this.TxtSatisFiyat);
@@ -109,6 +109,53 @@
             this.groupControl1.TabIndex = 1;
             this.groupControl1.Text = "ÜRÜN İŞLEMLERİ";
             this.groupControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.groupControl1_Paint);
+            // 
+            // TxtID
+            // 
+            this.TxtID.Enabled = false;
+            this.TxtID.Location = new System.Drawing.Point(129, 40);
+            this.TxtID.Name = "TxtID";
+            this.TxtID.Size = new System.Drawing.Size(329, 20);
+            this.TxtID.TabIndex = 21;
+            // 
+            // labelControl7
+            // 
+            this.labelControl7.Location = new System.Drawing.Point(77, 43);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(46, 13);
+            this.labelControl7.TabIndex = 20;
+            this.labelControl7.Text = "ÜRÜN ID:";
+            this.labelControl7.Click += new System.EventHandler(this.labelControl7_Click);
+            // 
+            // simpleButton4
+            // 
+            this.simpleButton4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
+            this.simpleButton4.Location = new System.Drawing.Point(129, 379);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.Size = new System.Drawing.Size(329, 39);
+            this.simpleButton4.TabIndex = 19;
+            this.simpleButton4.Text = "LİSTELE";
+            this.simpleButton4.Click += new System.EventHandler(this.simpleButton4_Click);
+            // 
+            // BtnGuncelle
+            // 
+            this.BtnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.BtnGuncelle.Location = new System.Drawing.Point(129, 334);
+            this.BtnGuncelle.Name = "BtnGuncelle";
+            this.BtnGuncelle.Size = new System.Drawing.Size(329, 39);
+            this.BtnGuncelle.TabIndex = 18;
+            this.BtnGuncelle.Text = "GÜNCELLE";
+            this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.simpleButton2.Location = new System.Drawing.Point(129, 289);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(329, 39);
+            this.simpleButton2.TabIndex = 17;
+            this.simpleButton2.Text = "SİL";
+            this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // simpleButton1
             // 
@@ -128,14 +175,16 @@
             this.labelControl6.TabIndex = 15;
             this.labelControl6.Text = "KATEGORİ:";
             // 
-            // TxtKategori
+            // LookUpEdit1
             // 
-            this.TxtKategori.Location = new System.Drawing.Point(129, 196);
-            this.TxtKategori.Name = "TxtKategori";
-            this.TxtKategori.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.LookUpEdit1.Location = new System.Drawing.Point(129, 196);
+            this.LookUpEdit1.Name = "LookUpEdit1";
+            this.LookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.TxtKategori.Size = new System.Drawing.Size(329, 20);
-            this.TxtKategori.TabIndex = 2;
+            this.LookUpEdit1.Properties.DisplayMember = "AD";
+            this.LookUpEdit1.Properties.ValueMember = "ID";
+            this.LookUpEdit1.Size = new System.Drawing.Size(329, 20);
+            this.LookUpEdit1.TabIndex = 2;
             // 
             // TxtStok
             // 
@@ -213,51 +262,6 @@
             this.labelControl1.TabIndex = 5;
             this.labelControl1.Text = "ÜRÜN ADI:";
             // 
-            // simpleButton2
-            // 
-            this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.simpleButton2.Location = new System.Drawing.Point(129, 289);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(329, 39);
-            this.simpleButton2.TabIndex = 17;
-            this.simpleButton2.Text = "SİL";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
-            this.simpleButton3.Location = new System.Drawing.Point(129, 334);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(329, 39);
-            this.simpleButton3.TabIndex = 18;
-            this.simpleButton3.Text = "GÜNCELLE";
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
-            this.simpleButton4.Location = new System.Drawing.Point(129, 379);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(329, 39);
-            this.simpleButton4.TabIndex = 19;
-            this.simpleButton4.Text = "LİSTELE";
-            this.simpleButton4.Click += new System.EventHandler(this.simpleButton4_Click);
-            // 
-            // TxtID
-            // 
-            this.TxtID.Enabled = false;
-            this.TxtID.Location = new System.Drawing.Point(129, 40);
-            this.TxtID.Name = "TxtID";
-            this.TxtID.Size = new System.Drawing.Size(329, 20);
-            this.TxtID.TabIndex = 21;
-            // 
-            // labelControl7
-            // 
-            this.labelControl7.Location = new System.Drawing.Point(77, 43);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(46, 13);
-            this.labelControl7.TabIndex = 20;
-            this.labelControl7.Text = "ÜRÜN ID:";
-            this.labelControl7.Click += new System.EventHandler(this.labelControl7_Click);
-            // 
             // FrmUrunListesi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -274,13 +278,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtKategori.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtID.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LookUpEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtStok.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtSatisFiyat.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtAlisFiyat.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtMarka.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtUrunAd.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtID.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -301,9 +305,9 @@
         private DevExpress.XtraEditors.TextEdit TxtMarka;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraEditors.LookUpEdit TxtKategori;
+        private DevExpress.XtraEditors.LookUpEdit LookUpEdit1;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton BtnGuncelle;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.SimpleButton simpleButton4;
         private DevExpress.XtraEditors.TextEdit TxtID;
