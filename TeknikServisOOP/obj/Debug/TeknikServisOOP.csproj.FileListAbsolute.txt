@@ -47,3 +47,7 @@ C:\C# Demos\TeknikServisOOP\TeknikServisOOP\bin\Debug\DevExpress.XtraPrinting.v2
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\bin\Debug\DevExpress.Office.v24.1.Core.xml
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmYeniUrun.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmKategori.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmYeniKategori.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmIstatistik.resources
