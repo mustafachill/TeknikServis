@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TeknikServisOOP.Formlar
 {
-    public partial class FrmYeniCari: Form
+    public partial class FrmYeniPersonel: Form
     {
-        public FrmYeniCari()
+        public FrmYeniPersonel()
         {
             InitializeComponent();
         }
@@ -20,21 +20,18 @@ namespace TeknikServisOOP.Formlar
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
             dBTEknikServisEntities db = new dBTEknikServisEntities();
-            TBLCARI t = new TBLCARI();
+            TBLPERSONEL t = new TBLPERSONEL();
             t.AD = TxtAd.Text.ToString();
             t.SOYAD = TxtSoyad.Text.ToString();
             t.TELEFON = TxtTelefon.Text.ToString();
             t.MAIL = TxtEmail.Text.ToString();
             //t.IL = lookUpEdit3.Text.ToString();
             //t.ILCE = lookUpEdit2.Text.ToString();
-            t.BANKA = TxtBanka.Text.ToString();
-            t.VERGIDAIRESI = TxtVergiDairesi.Text.ToString();
-            t.VERGINO = TxtVergiNo.Text.ToString();
-            t.STATU = TxtCariStatu.Text.ToString();
-            t.ADRES = TxtAdres.Text.ToString();
-            db.TBLCARI.Add(t);
+            t.DEPARTMAN = byte.Parse(TxtDepartman.Text.ToString());
+            t.FOTOGRAF = TxtFotograf.Text.ToString();
+            db.TBLPERSONEL.Add(t);
             db.SaveChanges();
-            MessageBox.Show("Cari Başarıyla Kaydedildi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Personel Başarıyla Kaydedildi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

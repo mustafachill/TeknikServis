@@ -25,6 +25,7 @@ namespace TeknikServisOOP.Formlar
             var degerler = from u in db.TBLDEPARTMAN
                            select new
                            {
+                               u.ID,
                                u.AD,
                                u.ACIKLAMA
                            };

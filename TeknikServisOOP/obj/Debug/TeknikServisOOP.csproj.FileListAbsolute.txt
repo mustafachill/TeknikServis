@@ -80,3 +80,5 @@ C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.Fr
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmYeniCari.resources
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmDepartman.resources
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmYeniDepartman.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmPersonel.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmYeniPersonel.resources

@@ -33,7 +33,9 @@ namespace TeknikServisOOP
 
         private void barButtonItem24_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            Formlar.FrmPersonel fr = new Formlar.FrmPersonel();
+            fr.MdiParent = this;
+            fr.Show();
         }
 
         private void barButtonItem37_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -97,6 +99,12 @@ namespace TeknikServisOOP
         private void barButtonItem27_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             Formlar.FrmYeniDepartman fr = new Formlar.FrmYeniDepartman();
+            fr.Show();
+        }
+
+        private void barButtonItem25_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmYeniPersonel fr = new Formlar.FrmYeniPersonel();
             fr.Show();
         }
     }
