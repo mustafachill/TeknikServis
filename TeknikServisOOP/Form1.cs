@@ -107,5 +107,46 @@ namespace TeknikServisOOP
             Formlar.FrmYeniPersonel fr = new Formlar.FrmYeniPersonel();
             fr.Show();
         }
+
+        private void BtnHesapMakinesi_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("calc.exe");
+        }
+
+        private void BtnKurlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmKurlar fr = new Formlar.FrmKurlar();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void BtnHaberler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmHaberler fr = new Formlar.FrmHaberler();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void BtnWord_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("winword.exe");
+        }
+
+        private void BtnExcel_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("excel.exe");
+        }
+
+        private void barButtonItem29_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barButtonItem4_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmNotlar fr = new Formlar.FrmNotlar();
+            fr.MdiParent = this;
+            fr.Show();
+        }
     }
 }
