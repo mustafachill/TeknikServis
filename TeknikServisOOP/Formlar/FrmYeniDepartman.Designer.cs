@@ -169,6 +169,7 @@
             this.Name = "FrmYeniDepartman";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmYeniDepartman";
+            this.Load += new System.EventHandler(this.FrmYeniDepartman_Load);
             ((System.ComponentModel.ISupportInitialize)(this.TxtDepartman.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtAciklama.Properties)).EndInit();

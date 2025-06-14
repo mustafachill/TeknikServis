@@ -85,3 +85,8 @@ C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.Fr
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmKurlar.resources
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmHaberler.resources
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmNotlar.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmArizaListesi.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmUrunSatis.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmSatislar.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmYeniArizaliUrunKaydi.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmArizaDetaylar.resources

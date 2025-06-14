@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="284de13af534439785862e47160af7b4" Name="Diagram1" ZoomLevel="37">
+      <Diagram DiagramId="284de13af534439785862e47160af7b4" Name="Diagram1" ZoomLevel="94">
         <EntityTypeShape EntityType="dBTEknikServisModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="2.375" IsExpanded="true" />
         <EntityTypeShape EntityType="dBTEknikServisModel.TBLADMIN" Width="1.5" PointX="9.75" PointY="2.375" IsExpanded="true" />
         <EntityTypeShape EntityType="dBTEknikServisModel.TBLARIZADETAY" Width="1.5" PointX="9.75" PointY="10.375" IsExpanded="true" />
@@ -30,8 +30,6 @@
         <AssociationConnector Association="dBTEknikServisModel.FK_TBLURUNHAREKET_TBLPERSONEL" ManuallyRouted="false" />
         <AssociationConnector Association="dBTEknikServisModel.FK_TBLURUNKABUL_TBLPERSONEL" ManuallyRouted="false" />
         <AssociationConnector Association="dBTEknikServisModel.FK_TBLURUNHAREKET_TBLURUN" ManuallyRouted="false" />
-        <AssociationConnector Association="dBTEknikServisModel.FK_TBLURUNKABUL_TBLURUN" ManuallyRouted="false" />
-        <AssociationConnector Association="dBTEknikServisModel.FK_TBLURUNTAKIP_TBLURUN" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

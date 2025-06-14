@@ -27,5 +27,10 @@ namespace TeknikServisOOP.Formlar
             db.SaveChanges();
             MessageBox.Show("Departman Başarıyla Kaydedildi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void FrmYeniDepartman_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
