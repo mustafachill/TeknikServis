@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\C# Demos\\TeknikServisOOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmurunlistesi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmurunlistesi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmfaturakalemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmfaturakalemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmarizadetaylar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmarizadetaylar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\tblfaturadetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\tblfaturadetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmarizadetaylar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmarizadetaylar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|C:\\C# Demos\\TeknikServisOOP\\teknikservisoop\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmfaturakalemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmfaturakalemleri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmfaturakalem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmfaturakalem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|C:\\C# Demos\\TeknikServisOOP\\teknikservisoop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|C:\\C# Demos\\TeknikServisOOP\\teknikservisoop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmfaturalistesi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmfaturalistesi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmfaturalistesi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmfaturalistesi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmfaturakalem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmfaturakalem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,23 +50,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmUrunListesi.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmUrunListesi.cs",
-              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmUrunListesi.cs",
-              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmUrunListesi.cs [Tasar\u0131m]",
-              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmUrunListesi.cs [Tasar\u0131m]",
+              "DocumentIndex": 1,
+              "Title": "TBLFATURADETAY.cs",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\TBLFATURADETAY.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\TBLFATURADETAY.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\TBLFATURADETAY.cs",
+              "RelativeToolTip": "TeknikServisOOP\\TBLFATURADETAY.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T23:53:01.751Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2025-06-14T18:55:52.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmFaturaKalemleri.cs",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmFaturaKalemleri.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmFaturaKalemleri.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmFaturaKalemleri.cs*",
+              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmFaturaKalemleri.cs*",
+              "ViewState": "AgIAACUAAAAAAAAAAAAUwDUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T19:28:57.416Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "FrmFaturaKalemleri.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmFaturaKalemleri.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmFaturaKalemleri.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmFaturaKalemleri.cs [Tasar\u0131m]*",
+              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmFaturaKalemleri.cs [Tasar\u0131m]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T19:13:06.326Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmFaturaKalem.cs",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmFaturaKalem.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmFaturaKalem.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmFaturaKalem.cs",
+              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmFaturaKalem.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAASwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T18:48:25.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmFaturaKalem.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmFaturaKalem.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmFaturaKalem.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmFaturaKalem.cs [Tasar\u0131m]",
+              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmFaturaKalem.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T18:34:00.826Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmFaturaListesi.cs",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmFaturaListesi.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmFaturaListesi.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmFaturaListesi.cs",
+              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmFaturaListesi.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAMwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:46:22.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmFaturaListesi.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmFaturaListesi.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmFaturaListesi.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmFaturaListesi.cs [Tasar\u0131m]",
+              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmFaturaListesi.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:23:35.547Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Model1.edmx",
               "RelativeDocumentMoniker": "TeknikServisOOP\\Model1.edmx",
@@ -62,45 +154,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmArizaDetaylar.cs",
-              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmArizaDetaylar.cs",
-              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmArizaDetaylar.cs",
-              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmArizaDetaylar.cs",
-              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmArizaDetaylar.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAIAwwBkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T23:41:29.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmArizaDetaylar.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmArizaDetaylar.cs",
-              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmArizaDetaylar.cs",
-              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmArizaDetaylar.cs [Tasar\u0131m]",
-              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmArizaDetaylar.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T23:27:24.474Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Form1.cs",
               "RelativeDocumentMoniker": "TeknikServisOOP\\Form1.cs",
               "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Form1.cs",
               "RelativeToolTip": "TeknikServisOOP\\Form1.cs",
-              "ViewState": "AgIAAKMAAAAAAAAAAIAwwLUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAMwNcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T16:46:51.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Form1.cs",
               "RelativeDocumentMoniker": "TeknikServisOOP\\Form1.cs",

@@ -90,3 +90,9 @@ C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.Fr
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmSatislar.resources
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmYeniArizaliUrunKaydi.resources
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmArizaDetaylar.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmArizaliUrunDetayListesi.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\bin\Debug\MessagingToolkit.QRCode.dll
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmQrKod.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmFaturaListesi.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmFaturaKalem.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmFaturaKalemleri.resources

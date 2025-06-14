@@ -57,6 +57,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="MessagingToolkit.QRCode, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MessagingToolkit.QRCode.1.3.0\lib\MessagingToolkit.QRCode.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -91,6 +94,12 @@
     <Compile Include="Formlar\FrmArizaListesi.Designer.cs">
       <DependentUpon>FrmArizaListesi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlar\FrmArizaliUrunDetayListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmArizaliUrunDetayListesi.Designer.cs">
+      <DependentUpon>FrmArizaliUrunDetayListesi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\FrmCariIller.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +117,24 @@
     </Compile>
     <Compile Include="Formlar\FrmDepartman.Designer.cs">
       <DependentUpon>FrmDepartman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmFaturaKalem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmFaturaKalem.Designer.cs">
+      <DependentUpon>FrmFaturaKalem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmFaturaKalemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmFaturaKalemleri.Designer.cs">
+      <DependentUpon>FrmFaturaKalemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmFaturaListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmFaturaListesi.Designer.cs">
+      <DependentUpon>FrmFaturaListesi.cs</DependentUpon>
     </Compile>
     <Compile Include="Formlar\FrmHaberler.cs">
       <SubType>Form</SubType>
@@ -144,6 +171,12 @@
     </Compile>
     <Compile Include="Formlar\FrmPersonel.Designer.cs">
       <DependentUpon>FrmPersonel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmQrKod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmQrKod.Designer.cs">
+      <DependentUpon>FrmQrKod.cs</DependentUpon>
     </Compile>
     <Compile Include="Formlar\FrmSatislar.cs">
       <SubType>Form</SubType>
@@ -282,6 +315,9 @@
     <EmbeddedResource Include="Formlar\FrmArizaListesi.resx">
       <DependentUpon>FrmArizaListesi.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmArizaliUrunDetayListesi.resx">
+      <DependentUpon>FrmArizaliUrunDetayListesi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmCariIller.resx">
       <DependentUpon>FrmCariIller.cs</DependentUpon>
     </EmbeddedResource>
@@ -290,6 +326,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmDepartman.resx">
       <DependentUpon>FrmDepartman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmFaturaKalem.resx">
+      <DependentUpon>FrmFaturaKalem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmFaturaKalemleri.resx">
+      <DependentUpon>FrmFaturaKalemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmFaturaListesi.resx">
+      <DependentUpon>FrmFaturaListesi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmHaberler.resx">
       <DependentUpon>FrmHaberler.cs</DependentUpon>
@@ -311,6 +356,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmPersonel.resx">
       <DependentUpon>FrmPersonel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmQrKod.resx">
+      <DependentUpon>FrmQrKod.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmSatislar.resx">
       <DependentUpon>FrmSatislar.cs</DependentUpon>

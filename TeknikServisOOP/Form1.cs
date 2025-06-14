@@ -181,5 +181,39 @@ namespace TeknikServisOOP
             Formlar.FrmArizaDetaylar fr = new Formlar.FrmArizaDetaylar();
             fr.Show();
         }
+
+        private void barButtonItem15_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmArizaliUrunDetayListesi fr = new Formlar.FrmArizaliUrunDetayListesi();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void barButtonItem13_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmQrKod fr = new Formlar.FrmQrKod();
+            fr.Show();
+        }
+
+        private void barButtonItem16_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmFaturaListesi fr = new Formlar.FrmFaturaListesi();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void barButtonItem20_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmFaturaKalem fr = new Formlar.FrmFaturaKalem();
+            fr.MdiParent = this;
+            fr.Show();
+        }
+
+        private void barButtonItem21_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmFaturaKalemleri fr = new Formlar.FrmFaturaKalemleri();
+            fr.MdiParent = this;
+            fr.Show();
+        }
     }
 }
