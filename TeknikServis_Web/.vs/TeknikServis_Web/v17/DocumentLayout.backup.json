@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C# Demos\\TeknikServis_Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC16738-DBC8-4D6A-B8F2-2DA6F437E2B7}|TeknikServis_Web\\TeknikServis_Web.csproj|c:\\c# demos\\teknikservis_web\\teknikservis_web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{ECC16738-DBC8-4D6A-B8F2-2DA6F437E2B7}|TeknikServis_Web\\TeknikServis_Web.csproj|solutionrelative:teknikservis_web\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC16738-DBC8-4D6A-B8F2-2DA6F437E2B7}|TeknikServis_Web\\TeknikServis_Web.csproj|c:\\c# demos\\teknikservis_web\\teknikservis_web\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{ECC16738-DBC8-4D6A-B8F2-2DA6F437E2B7}|TeknikServis_Web\\TeknikServis_Web.csproj|solutionrelative:teknikservis_web\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC16738-DBC8-4D6A-B8F2-2DA6F437E2B7}|TeknikServis_Web\\TeknikServis_Web.csproj|c:\\c# demos\\teknikservis_web\\teknikservis_web\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC16738-DBC8-4D6A-B8F2-2DA6F437E2B7}|TeknikServis_Web\\TeknikServis_Web.csproj|solutionrelative:teknikservis_web\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC16738-DBC8-4D6A-B8F2-2DA6F437E2B7}|TeknikServis_Web\\TeknikServis_Web.csproj|c:\\c# demos\\teknikservis_web\\teknikservis_web\\entity\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{ECC16738-DBC8-4D6A-B8F2-2DA6F437E2B7}|TeknikServis_Web\\TeknikServis_Web.csproj|solutionrelative:teknikservis_web\\entity\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC16738-DBC8-4D6A-B8F2-2DA6F437E2B7}|TeknikServis_Web\\TeknikServis_Web.csproj|c:\\c# demos\\teknikservis_web\\teknikservis_web\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECC16738-DBC8-4D6A-B8F2-2DA6F437E2B7}|TeknikServis_Web\\TeknikServis_Web.csproj|solutionrelative:teknikservis_web\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECC16738-DBC8-4D6A-B8F2-2DA6F437E2B7}|TeknikServis_Web\\TeknikServis_Web.csproj|C:\\C# Demos\\TeknikServis_Web\\teknikservis_web\\kullanici.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{ECC16738-DBC8-4D6A-B8F2-2DA6F437E2B7}|TeknikServis_Web\\TeknikServis_Web.csproj|solutionrelative:teknikservis_web\\kullanici.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServis_Web\\TeknikServis_Web\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "TeknikServis_Web\\WebForm1.aspx.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServis_Web\\TeknikServis_Web\\WebForm1.aspx.cs",
+              "RelativeToolTip": "TeknikServis_Web\\WebForm1.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T21:36:19.137Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServis_Web\\TeknikServis_Web\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "TeknikServis_Web\\Default.aspx.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServis_Web\\TeknikServis_Web\\Default.aspx.cs",
+              "RelativeToolTip": "TeknikServis_Web\\Default.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T22:24:33.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServis_Web\\TeknikServis_Web\\Entity\\Model1.edmx",
+              "RelativeDocumentMoniker": "TeknikServis_Web\\Entity\\Model1.edmx",
+              "ToolTip": "C:\\C# Demos\\TeknikServis_Web\\TeknikServis_Web\\Entity\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "TeknikServis_Web\\Entity\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-06-14T22:23:21.439Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServis_Web\\TeknikServis_Web\\Default.aspx",
+              "RelativeDocumentMoniker": "TeknikServis_Web\\Default.aspx",
+              "ToolTip": "C:\\C# Demos\\TeknikServis_Web\\TeknikServis_Web\\Default.aspx",
+              "RelativeToolTip": "TeknikServis_Web\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-14T22:03:02.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServis_Web\\TeknikServis_Web\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "TeknikServis_Web\\WebForm1.aspx",
+              "ToolTip": "C:\\C# Demos\\TeknikServis_Web\\TeknikServis_Web\\WebForm1.aspx",
+              "RelativeToolTip": "TeknikServis_Web\\WebForm1.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-14T20:24:59.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Kullanici.Master",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServis_Web\\TeknikServis_Web\\Kullanici.Master",
+              "RelativeDocumentMoniker": "TeknikServis_Web\\Kullanici.Master",
+              "ToolTip": "C:\\C# Demos\\TeknikServis_Web\\TeknikServis_Web\\Kullanici.Master",
+              "RelativeToolTip": "TeknikServis_Web\\Kullanici.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-14T20:23:10.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
