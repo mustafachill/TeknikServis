@@ -30,6 +30,7 @@
         <AssociationConnector Association="dBTEknikServisModel.FK_TBLURUNHAREKET_TBLPERSONEL" ManuallyRouted="false" />
         <AssociationConnector Association="dBTEknikServisModel.FK_TBLURUNKABUL_TBLPERSONEL" ManuallyRouted="false" />
         <AssociationConnector Association="dBTEknikServisModel.FK_TBLURUNHAREKET_TBLURUN" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="dBTEknikServisModel.TBLILETISIM" Width="1.5" PointX="12.375" PointY="8.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

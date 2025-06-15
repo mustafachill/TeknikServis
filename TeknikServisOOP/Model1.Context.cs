@@ -42,6 +42,7 @@ namespace TeknikServisOOP
         public virtual DbSet<TBLURUNHAREKET> TBLURUNHAREKET { get; set; }
         public virtual DbSet<TBLURUNKABUL> TBLURUNKABUL { get; set; }
         public virtual DbSet<TBLURUNTAKIP> TBLURUNTAKIP { get; set; }
+        public virtual DbSet<TBLILETISIM> TBLILETISIM { get; set; }
     
         public virtual int sp_alterdiagram(string diagramname, Nullable<int> owner_id, Nullable<int> version, byte[] definition)
         {
