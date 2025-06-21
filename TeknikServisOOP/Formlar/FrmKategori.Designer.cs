@@ -169,7 +169,7 @@
             this.groupControl1.Controls.Add(this.simpleButton1);
             this.groupControl1.Controls.Add(this.TxtAd);
             this.groupControl1.Controls.Add(this.labelControl1);
-            this.groupControl1.Location = new System.Drawing.Point(1402, -2);
+            this.groupControl1.Location = new System.Drawing.Point(1402, 0);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(520, 829);
             this.groupControl1.TabIndex = 3;
@@ -177,10 +177,10 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(2, -2);
+            this.gridControl1.Location = new System.Drawing.Point(2, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1394, 469);
+            this.gridControl1.Size = new System.Drawing.Size(1396, 469);
             this.gridControl1.TabIndex = 2;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});

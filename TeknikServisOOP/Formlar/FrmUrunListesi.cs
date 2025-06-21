@@ -1,4 +1,5 @@
-﻿using DevExpress.XtraEditors;
+﻿using DevExpress.CodeParser;
+using DevExpress.XtraEditors;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -62,17 +63,23 @@ namespace TeknikServisOOP.Formlar
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
-            TBLURUN t = new TBLURUN();
-            t.AD = TxtUrunAd.Text;
-            t.MARKA = TxtMarka.Text;
-            t.ALISFIYAT = decimal.Parse(TxtAlisFiyat.Text);
-            t.SATISFIYAT = decimal.Parse(TxtSatisFiyat.Text);
-            t.STOK = short.Parse(TxtStok.Text);
-            t.DURUM = false;
-            t.KATEGORI = byte.Parse(LookUpEdit1.EditValue.ToString());
-            db.TBLURUN.Add(t);
-            db.SaveChanges();
-            MessageBox.Show("Ürün Başarıyla Kaydedildi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            try {
+                TBLURUN t = new TBLURUN();
+                t.AD = TxtUrunAd.Text;
+                t.MARKA = TxtMarka.Text;
+                t.ALISFIYAT = decimal.Parse(TxtAlisFiyat.Text);
+                t.SATISFIYAT = decimal.Parse(TxtSatisFiyat.Text);
+                t.STOK = short.Parse(TxtStok.Text);
+                t.DURUM = false;
+                t.KATEGORI = byte.Parse(LookUpEdit1.EditValue.ToString());
+                db.TBLURUN.Add(t);
+                db.SaveChanges();
+                MessageBox.Show("Ürün Başarıyla Kaydedildi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception) {
+                MessageBox.Show("Ürün Kaydedilirken Hata", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
         private void simpleButton4_Click(object sender, EventArgs e)

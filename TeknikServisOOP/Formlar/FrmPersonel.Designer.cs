@@ -145,6 +145,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.lookUpEdit1.Size = new System.Drawing.Size(329, 20);
             this.lookUpEdit1.TabIndex = 30;
+            this.lookUpEdit1.EditValueChanged += new System.EventHandler(this.lookUpEdit1_EditValueChanged);
             // 
             // TxtTelefon
             // 

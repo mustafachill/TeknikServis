@@ -108,6 +108,7 @@
     <EntitySetMapping Name="TBLNOTLARIM">
       <EntityTypeMapping TypeName="dBTEknikServisModel.TBLNOTLARIM">
         <MappingFragment StoreEntitySet="TBLNOTLARIM">
+          <ScalarProperty Name="TARIH" ColumnName="TARIH" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="BASLIK" ColumnName="BASLIK" />
           <ScalarProperty Name="ICERIK" ColumnName="ICERIK" />
@@ -213,5 +214,30 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="urunkategori" FunctionName="dBTEknikServisModel.Store.urunkategori">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="dBTEknikServisModel.urunkategori_Result">
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="ADET" ColumnName="ADET" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="makskategoriurun" FunctionName="dBTEknikServisModel.Store.makskategoriurun" />
+    <FunctionImportMapping FunctionImportName="maksurunmarka" FunctionName="dBTEknikServisModel.Store.maksurunmarka">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="dBTEknikServisModel.maksurunmarka_Result">
+          <ScalarProperty Name="MARKA" ColumnName="MARKA" />
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="maksurunmarka2" FunctionName="dBTEknikServisModel.Store.maksurunmarka2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="dBTEknikServisModel.maksurunmarka2_Result">
+          <ScalarProperty Name="Marka" ColumnName="Marka" />
+          <ScalarProperty Name="Adet" ColumnName="Adet" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

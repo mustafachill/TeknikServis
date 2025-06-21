@@ -17,6 +17,7 @@ namespace TeknikServisOOP.Formlar
         {
             InitializeComponent();
         }
+        dBTEknikServisEntities db = new dBTEknikServisEntities();
 
         private void pictureEdit2_EditValueChanged(object sender, EventArgs e)
         {
@@ -31,7 +32,6 @@ namespace TeknikServisOOP.Formlar
 
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
-            dBTEknikServisEntities db = new dBTEknikServisEntities();
             TBLURUN t = new TBLURUN();
             t.AD = TxtUrunAd.Text;
             t.MARKA = TxtMarka.Text;
@@ -39,7 +39,7 @@ namespace TeknikServisOOP.Formlar
             t.SATISFIYAT = decimal.Parse(TxtSatisFiyat.Text);
             t.STOK = short.Parse(TxtStok.Text);
             t.DURUM = false;
-            t.KATEGORI = byte.Parse(TxtAlisFiyat.Text.ToString());
+            t.KATEGORI = byte.Parse(LookUpEdit1.EditValue.ToString());
             db.TBLURUN.Add(t);
             db.SaveChanges();
             MessageBox.Show("Ürün Başarıyla Kaydedildi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -48,6 +48,16 @@ namespace TeknikServisOOP.Formlar
         private void TxtUrunAd_EditValueChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void FrmYeniUrun_Load(object sender, EventArgs e)
+        {
+            LookUpEdit1.Properties.DataSource = (from x in db.TBLKATEGORI
+                                                 select new
+                                                 {
+                                                     x.ID,
+                                                     x.AD
+                                                 }).ToList();
         }
     }
 }

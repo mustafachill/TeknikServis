@@ -282,6 +282,12 @@
     <Compile Include="Formlar\FrmYeniUrun.Designer.cs">
       <DependentUpon>FrmYeniUrun.cs</DependentUpon>
     </Compile>
+    <Compile Include="maksurunmarka2_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="maksurunmarka_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -357,6 +363,9 @@
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="TBLURUNTAKIP.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="urunkategori_Result.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">

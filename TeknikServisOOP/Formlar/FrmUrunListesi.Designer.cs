@@ -139,7 +139,7 @@
             // 
             // BtnGuncelle
             // 
-            this.BtnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.ImageOptions.Image")));
+            this.BtnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnGuncelle.ImageOptions.Image")));
             this.BtnGuncelle.Location = new System.Drawing.Point(129, 334);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(329, 39);
@@ -177,6 +177,7 @@
             // 
             // LookUpEdit1
             // 
+            this.LookUpEdit1.EditValue = "Değer Seçin";
             this.LookUpEdit1.Location = new System.Drawing.Point(129, 196);
             this.LookUpEdit1.Name = "LookUpEdit1";
             this.LookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {

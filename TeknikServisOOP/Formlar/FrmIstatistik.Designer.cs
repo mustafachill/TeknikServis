@@ -137,13 +137,13 @@
             // 
             // labelControl2
             // 
-            this.labelControl2.Appearance.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl2.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.Appearance.Options.UseForeColor = true;
-            this.labelControl2.Location = new System.Drawing.Point(15, 65);
+            this.labelControl2.Location = new System.Drawing.Point(15, 93);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(111, 86);
+            this.labelControl2.Size = new System.Drawing.Size(54, 45);
             this.labelControl2.TabIndex = 1;
             this.labelControl2.Text = "584";
             // 
@@ -197,13 +197,13 @@
             // 
             // labelControl3
             // 
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl3.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl3.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl3.Appearance.Options.UseFont = true;
             this.labelControl3.Appearance.Options.UseForeColor = true;
-            this.labelControl3.Location = new System.Drawing.Point(15, 65);
+            this.labelControl3.Location = new System.Drawing.Point(15, 93);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(74, 86);
+            this.labelControl3.Size = new System.Drawing.Size(36, 45);
             this.labelControl3.TabIndex = 1;
             this.labelControl3.Text = "26";
             // 
@@ -233,13 +233,13 @@
             // 
             // labelControl5
             // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl5.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl5.Appearance.Options.UseFont = true;
             this.labelControl5.Appearance.Options.UseForeColor = true;
-            this.labelControl5.Location = new System.Drawing.Point(15, 65);
+            this.labelControl5.Location = new System.Drawing.Point(15, 93);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(148, 86);
+            this.labelControl5.Size = new System.Drawing.Size(72, 45);
             this.labelControl5.TabIndex = 1;
             this.labelControl5.Text = "1358";
             // 
@@ -281,13 +281,13 @@
             // 
             // labelControl7
             // 
-            this.labelControl7.Appearance.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl7.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl7.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl7.Appearance.Options.UseFont = true;
             this.labelControl7.Appearance.Options.UseForeColor = true;
-            this.labelControl7.Location = new System.Drawing.Point(15, 65);
+            this.labelControl7.Location = new System.Drawing.Point(15, 93);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(74, 86);
+            this.labelControl7.Size = new System.Drawing.Size(36, 45);
             this.labelControl7.TabIndex = 1;
             this.labelControl7.Text = "10";
             // 
@@ -327,13 +327,13 @@
             // 
             // labelControl9
             // 
-            this.labelControl9.Appearance.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold);
+            this.labelControl9.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl9.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl9.Appearance.Options.UseFont = true;
             this.labelControl9.Appearance.Options.UseForeColor = true;
-            this.labelControl9.Location = new System.Drawing.Point(15, 90);
+            this.labelControl9.Location = new System.Drawing.Point(15, 118);
             this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(84, 65);
+            this.labelControl9.Size = new System.Drawing.Size(54, 45);
             this.labelControl9.TabIndex = 1;
             this.labelControl9.Text = "584";
             // 
@@ -361,13 +361,13 @@
             // 
             // labelControl11
             // 
-            this.labelControl11.Appearance.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold);
+            this.labelControl11.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl11.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl11.Appearance.Options.UseFont = true;
             this.labelControl11.Appearance.Options.UseForeColor = true;
-            this.labelControl11.Location = new System.Drawing.Point(15, 90);
+            this.labelControl11.Location = new System.Drawing.Point(15, 118);
             this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(60, 65);
+            this.labelControl11.Size = new System.Drawing.Size(40, 45);
             this.labelControl11.TabIndex = 1;
             this.labelControl11.Text = "TV";
             this.labelControl11.Click += new System.EventHandler(this.labelControl11_Click);
@@ -384,13 +384,13 @@
             // 
             // labelControl13
             // 
-            this.labelControl13.Appearance.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold);
+            this.labelControl13.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl13.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl13.Appearance.Options.UseFont = true;
             this.labelControl13.Appearance.Options.UseForeColor = true;
-            this.labelControl13.Location = new System.Drawing.Point(15, 90);
+            this.labelControl13.Location = new System.Drawing.Point(15, 118);
             this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(181, 65);
+            this.labelControl13.Size = new System.Drawing.Size(122, 45);
             this.labelControl13.TabIndex = 1;
             this.labelControl13.Text = "LAPTOP";
             // 
@@ -418,13 +418,13 @@
             // 
             // labelControl15
             // 
-            this.labelControl15.Appearance.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold);
+            this.labelControl15.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl15.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl15.Appearance.Options.UseFont = true;
             this.labelControl15.Appearance.Options.UseForeColor = true;
-            this.labelControl15.Location = new System.Drawing.Point(15, 90);
+            this.labelControl15.Location = new System.Drawing.Point(15, 118);
             this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(204, 65);
+            this.labelControl15.Size = new System.Drawing.Size(135, 45);
             this.labelControl15.TabIndex = 1;
             this.labelControl15.Text = "TELEFON";
             // 
@@ -464,25 +464,25 @@
             // 
             // labelControl18
             // 
-            this.labelControl18.Appearance.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold);
+            this.labelControl18.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold);
             this.labelControl18.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl18.Appearance.Options.UseFont = true;
             this.labelControl18.Appearance.Options.UseForeColor = true;
             this.labelControl18.Location = new System.Drawing.Point(15, 90);
             this.labelControl18.Name = "labelControl18";
-            this.labelControl18.Size = new System.Drawing.Size(204, 65);
+            this.labelControl18.Size = new System.Drawing.Size(135, 45);
             this.labelControl18.TabIndex = 1;
             this.labelControl18.Text = "TELEFON";
             // 
             // labelControl19
             // 
-            this.labelControl19.Appearance.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold);
+            this.labelControl19.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold);
             this.labelControl19.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl19.Appearance.Options.UseFont = true;
             this.labelControl19.Appearance.Options.UseForeColor = true;
             this.labelControl19.Location = new System.Drawing.Point(15, 90);
             this.labelControl19.Name = "labelControl19";
-            this.labelControl19.Size = new System.Drawing.Size(181, 65);
+            this.labelControl19.Size = new System.Drawing.Size(122, 45);
             this.labelControl19.TabIndex = 1;
             this.labelControl19.Text = "LAPTOP";
             // 
@@ -522,13 +522,13 @@
             // 
             // labelControl22
             // 
-            this.labelControl22.Appearance.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold);
+            this.labelControl22.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold);
             this.labelControl22.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl22.Appearance.Options.UseFont = true;
             this.labelControl22.Appearance.Options.UseForeColor = true;
             this.labelControl22.Location = new System.Drawing.Point(15, 90);
             this.labelControl22.Name = "labelControl22";
-            this.labelControl22.Size = new System.Drawing.Size(60, 65);
+            this.labelControl22.Size = new System.Drawing.Size(40, 45);
             this.labelControl22.TabIndex = 1;
             this.labelControl22.Text = "TV";
             // 
@@ -556,13 +556,13 @@
             // 
             // labelControl24
             // 
-            this.labelControl24.Appearance.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold);
+            this.labelControl24.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold);
             this.labelControl24.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl24.Appearance.Options.UseFont = true;
             this.labelControl24.Appearance.Options.UseForeColor = true;
             this.labelControl24.Location = new System.Drawing.Point(15, 90);
             this.labelControl24.Name = "labelControl24";
-            this.labelControl24.Size = new System.Drawing.Size(84, 65);
+            this.labelControl24.Size = new System.Drawing.Size(54, 45);
             this.labelControl24.TabIndex = 1;
             this.labelControl24.Text = "584";
             // 
@@ -603,13 +603,13 @@
             // 
             // labelControl26
             // 
-            this.labelControl26.Appearance.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl26.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl26.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl26.Appearance.Options.UseFont = true;
             this.labelControl26.Appearance.Options.UseForeColor = true;
-            this.labelControl26.Location = new System.Drawing.Point(15, 65);
+            this.labelControl26.Location = new System.Drawing.Point(15, 93);
             this.labelControl26.Name = "labelControl26";
-            this.labelControl26.Size = new System.Drawing.Size(74, 86);
+            this.labelControl26.Size = new System.Drawing.Size(36, 45);
             this.labelControl26.TabIndex = 1;
             this.labelControl26.Text = "10";
             // 
@@ -640,13 +640,13 @@
             // 
             // labelControl28
             // 
-            this.labelControl28.Appearance.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl28.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl28.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl28.Appearance.Options.UseFont = true;
             this.labelControl28.Appearance.Options.UseForeColor = true;
-            this.labelControl28.Location = new System.Drawing.Point(15, 65);
+            this.labelControl28.Location = new System.Drawing.Point(15, 93);
             this.labelControl28.Name = "labelControl28";
-            this.labelControl28.Size = new System.Drawing.Size(148, 86);
+            this.labelControl28.Size = new System.Drawing.Size(72, 45);
             this.labelControl28.TabIndex = 1;
             this.labelControl28.Text = "1358";
             // 
@@ -688,13 +688,13 @@
             // 
             // labelControl30
             // 
-            this.labelControl30.Appearance.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl30.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl30.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl30.Appearance.Options.UseFont = true;
             this.labelControl30.Appearance.Options.UseForeColor = true;
-            this.labelControl30.Location = new System.Drawing.Point(15, 65);
+            this.labelControl30.Location = new System.Drawing.Point(15, 93);
             this.labelControl30.Name = "labelControl30";
-            this.labelControl30.Size = new System.Drawing.Size(74, 86);
+            this.labelControl30.Size = new System.Drawing.Size(36, 45);
             this.labelControl30.TabIndex = 1;
             this.labelControl30.Text = "26";
             // 
@@ -724,13 +724,13 @@
             // 
             // labelControl31
             // 
-            this.labelControl31.Appearance.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl31.Appearance.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl31.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl31.Appearance.Options.UseFont = true;
             this.labelControl31.Appearance.Options.UseForeColor = true;
-            this.labelControl31.Location = new System.Drawing.Point(15, 65);
+            this.labelControl31.Location = new System.Drawing.Point(15, 93);
             this.labelControl31.Name = "labelControl31";
-            this.labelControl31.Size = new System.Drawing.Size(111, 86);
+            this.labelControl31.Size = new System.Drawing.Size(54, 45);
             this.labelControl31.TabIndex = 1;
             this.labelControl31.Text = "584";
             // 
@@ -790,7 +790,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "FrmIstatistik";
-            this.Text = "FrmIstatistik";
+            this.Text = "İstatistikler";
             this.Load += new System.EventHandler(this.FrmIstatistik_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

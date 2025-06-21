@@ -10,14 +10,10 @@
 namespace TeknikServisOOP
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class TBLNOTLARIM
+    public partial class maksurunmarka_Result
     {
-        public int ID { get; set; }
-        public string BASLIK { get; set; }
-        public string ICERIK { get; set; }
-        public Nullable<bool> DURUM { get; set; }
-        public Nullable<System.DateTime> TARIH { get; set; }
+        public string MARKA { get; set; }
+        public Nullable<int> Column1 { get; set; }
     }
 }

@@ -140,5 +140,10 @@ namespace TeknikServisOOP.Formlar
         {
             listeleme();
         }
+
+        private void lookUpEdit1_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

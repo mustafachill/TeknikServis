@@ -41,7 +41,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.TxtMarka = new DevExpress.XtraEditors.TextEdit();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.TxtKategori = new DevExpress.XtraEditors.TextEdit();
             this.panel4 = new System.Windows.Forms.Panel();
             this.TxtAlisFiyat = new DevExpress.XtraEditors.TextEdit();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -52,6 +51,7 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.BtnKaydet = new DevExpress.XtraEditors.SimpleButton();
             this.BtnVazgec = new DevExpress.XtraEditors.SimpleButton();
+            this.LookUpEdit1 = new DevExpress.XtraEditors.LookUpEdit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
@@ -60,11 +60,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtUrunAd.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtMarka.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtKategori.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtAlisFiyat.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtSatisFiyat.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtStok.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LookUpEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureEdit1
@@ -186,21 +186,6 @@
             this.panel3.Size = new System.Drawing.Size(204, 3);
             this.panel3.TabIndex = 13;
             // 
-            // TxtKategori
-            // 
-            this.TxtKategori.EditValue = "Kategori";
-            this.TxtKategori.Location = new System.Drawing.Point(59, 211);
-            this.TxtKategori.Name = "TxtKategori";
-            this.TxtKategori.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.TxtKategori.Properties.Appearance.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtKategori.Properties.Appearance.ForeColor = System.Drawing.Color.White;
-            this.TxtKategori.Properties.Appearance.Options.UseBackColor = true;
-            this.TxtKategori.Properties.Appearance.Options.UseFont = true;
-            this.TxtKategori.Properties.Appearance.Options.UseForeColor = true;
-            this.TxtKategori.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.TxtKategori.Size = new System.Drawing.Size(186, 26);
-            this.TxtKategori.TabIndex = 12;
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
@@ -321,12 +306,31 @@
             this.BtnVazgec.Text = "Vazgeç";
             this.BtnVazgec.Click += new System.EventHandler(this.BtnVazgec_Click);
             // 
+            // LookUpEdit1
+            // 
+            this.LookUpEdit1.EditValue = "Değer Seçin";
+            this.LookUpEdit1.Location = new System.Drawing.Point(59, 213);
+            this.LookUpEdit1.Name = "LookUpEdit1";
+            this.LookUpEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.LookUpEdit1.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.LookUpEdit1.Properties.Appearance.ForeColor = System.Drawing.Color.White;
+            this.LookUpEdit1.Properties.Appearance.Options.UseBackColor = true;
+            this.LookUpEdit1.Properties.Appearance.Options.UseFont = true;
+            this.LookUpEdit1.Properties.Appearance.Options.UseForeColor = true;
+            this.LookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.LookUpEdit1.Properties.DisplayMember = "AD";
+            this.LookUpEdit1.Properties.ValueMember = "ID";
+            this.LookUpEdit1.Size = new System.Drawing.Size(204, 28);
+            this.LookUpEdit1.TabIndex = 27;
+            // 
             // FrmYeniUrun
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.ClientSize = new System.Drawing.Size(344, 511);
+            this.Controls.Add(this.LookUpEdit1);
             this.Controls.Add(this.BtnVazgec);
             this.Controls.Add(this.BtnKaydet);
             this.Controls.Add(this.labelControl1);
@@ -338,7 +342,6 @@
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.TxtAlisFiyat);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.TxtKategori);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.TxtMarka);
             this.Controls.Add(this.panel1);
@@ -351,7 +354,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FrmYeniUrun";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmYeniUrun";
+            this.Text = resources.GetString("$this.Text");
+            this.Load += new System.EventHandler(this.FrmYeniUrun_Load);
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).EndInit();
@@ -360,11 +364,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtUrunAd.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtMarka.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtKategori.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtAlisFiyat.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtSatisFiyat.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtStok.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LookUpEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -383,7 +387,6 @@
         private System.Windows.Forms.Panel panel2;
         private DevExpress.XtraEditors.TextEdit TxtMarka;
         private System.Windows.Forms.Panel panel3;
-        private DevExpress.XtraEditors.TextEdit TxtKategori;
         private System.Windows.Forms.Panel panel4;
         private DevExpress.XtraEditors.TextEdit TxtAlisFiyat;
         private System.Windows.Forms.Panel panel5;
@@ -394,5 +397,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.SimpleButton BtnKaydet;
         private DevExpress.XtraEditors.SimpleButton BtnVazgec;
+        private DevExpress.XtraEditors.LookUpEdit LookUpEdit1;
     }
 }

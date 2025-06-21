@@ -33,6 +33,7 @@ namespace TeknikServisOOP.Formlar
             labelControl3.Text = db.TBLKATEGORI.Count().ToString();
             labelControl5.Text = db.TBLURUN.Sum(x => x.STOK).ToString();
             labelControl5.Text = "10"; // db.TBLURUN kritik seviye ürün
+            labelControl11.Text = db.makskategoriurun().FirstOrDefault().ToString();
             labelControl13.Text = (from x in db.TBLURUN
                                    orderby x.STOK descending
                                    select x.AD).FirstOrDefault();

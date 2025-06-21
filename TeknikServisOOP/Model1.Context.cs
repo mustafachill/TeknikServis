@@ -146,5 +146,25 @@ namespace TeknikServisOOP
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_upgraddiagrams");
         }
+    
+        public virtual ObjectResult<urunkategori_Result> urunkategori()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<urunkategori_Result>("urunkategori");
+        }
+    
+        public virtual ObjectResult<string> makskategoriurun()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<string>("makskategoriurun");
+        }
+    
+        public virtual ObjectResult<maksurunmarka_Result> maksurunmarka()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<maksurunmarka_Result>("maksurunmarka");
+        }
+    
+        public virtual ObjectResult<maksurunmarka2_Result> maksurunmarka2()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<maksurunmarka2_Result>("maksurunmarka2");
+        }
     }
 }

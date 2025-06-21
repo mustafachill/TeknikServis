@@ -435,7 +435,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel4);
             this.Name = "FrmArizaListesi";
-            this.Text = "FrmArizaListesi";
+            this.Text = "Arıza Listesi";
             this.Load += new System.EventHandler(this.FrmArizaListesi_Load);
             ((System.ComponentModel.ISupportInitialize)(pieSeriesView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
