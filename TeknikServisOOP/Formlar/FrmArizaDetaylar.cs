@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DevExpress.PivotGrid.OLAP.AdoWrappers;
+using DevExpress.Utils.DirectXPaint.Svg;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,8 +27,18 @@ namespace TeknikServisOOP.Formlar
             t.TARIH = DateTime.Parse(TxtTarih.Text);
             t.SERINO = TxtSeriNo.Text;
             db.TBLURUNTAKIP.Add(t);
-            db.SaveChanges();
+            
             MessageBox.Show("Arızalı Ürün Detayları Güncellendi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            //2. GÜNCELLEME
+            TBLURUNKABUL tb = new TBLURUNKABUL();
+            tb.URUNDURUMDETAY = comboBox1.Text;
+            db.SaveChanges();
+        }
+
+        private void FrmArizaDetaylar_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

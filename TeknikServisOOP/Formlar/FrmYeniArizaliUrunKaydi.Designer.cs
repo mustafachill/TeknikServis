@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmYeniArizaliUrunKaydi));
             this.panel7 = new System.Windows.Forms.Panel();
+            this.LookUpEdit1 = new DevExpress.XtraEditors.LookUpEdit();
             this.TxtSeriNo = new DevExpress.XtraEditors.TextEdit();
             this.pictureEdit7 = new DevExpress.XtraEditors.PictureEdit();
             this.BtnVazgec = new DevExpress.XtraEditors.SimpleButton();
@@ -42,22 +43,21 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.TxtID = new DevExpress.XtraEditors.TextEdit();
             this.pictureEdit6 = new DevExpress.XtraEditors.PictureEdit();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
-            this.LookUpEdit1 = new DevExpress.XtraEditors.LookUpEdit();
             this.lookUpEdit2 = new DevExpress.XtraEditors.LookUpEdit();
+            this.lookUpEdit3 = new DevExpress.XtraEditors.LookUpEdit();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.LookUpEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtSeriNo.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtTarih.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtID.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LookUpEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit3.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // panel7
@@ -69,6 +69,24 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(204, 3);
             this.panel7.TabIndex = 74;
+            // 
+            // LookUpEdit1
+            // 
+            this.LookUpEdit1.EditValue = "Değer Seçin";
+            this.LookUpEdit1.Location = new System.Drawing.Point(0, -13);
+            this.LookUpEdit1.Name = "LookUpEdit1";
+            this.LookUpEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.LookUpEdit1.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.LookUpEdit1.Properties.Appearance.ForeColor = System.Drawing.Color.White;
+            this.LookUpEdit1.Properties.Appearance.Options.UseBackColor = true;
+            this.LookUpEdit1.Properties.Appearance.Options.UseFont = true;
+            this.LookUpEdit1.Properties.Appearance.Options.UseForeColor = true;
+            this.LookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.LookUpEdit1.Properties.DisplayMember = "AD";
+            this.LookUpEdit1.Properties.ValueMember = "ID";
+            this.LookUpEdit1.Size = new System.Drawing.Size(204, 28);
+            this.LookUpEdit1.TabIndex = 28;
             // 
             // TxtSeriNo
             // 
@@ -188,21 +206,6 @@
             this.panel1.Size = new System.Drawing.Size(204, 3);
             this.panel1.TabIndex = 57;
             // 
-            // TxtID
-            // 
-            this.TxtID.EditValue = "Müşteri ID";
-            this.TxtID.Location = new System.Drawing.Point(91, 84);
-            this.TxtID.Name = "TxtID";
-            this.TxtID.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.TxtID.Properties.Appearance.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtID.Properties.Appearance.ForeColor = System.Drawing.Color.White;
-            this.TxtID.Properties.Appearance.Options.UseBackColor = true;
-            this.TxtID.Properties.Appearance.Options.UseFont = true;
-            this.TxtID.Properties.Appearance.Options.UseForeColor = true;
-            this.TxtID.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.TxtID.Size = new System.Drawing.Size(186, 26);
-            this.TxtID.TabIndex = 56;
-            // 
             // pictureEdit6
             // 
             this.pictureEdit6.EditValue = ((object)(resources.GetObject("pictureEdit6.EditValue")));
@@ -227,24 +230,6 @@
             this.pictureEdit1.Size = new System.Drawing.Size(40, 40);
             this.pictureEdit1.TabIndex = 51;
             // 
-            // LookUpEdit1
-            // 
-            this.LookUpEdit1.EditValue = "Değer Seçin";
-            this.LookUpEdit1.Location = new System.Drawing.Point(0, -13);
-            this.LookUpEdit1.Name = "LookUpEdit1";
-            this.LookUpEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.LookUpEdit1.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.LookUpEdit1.Properties.Appearance.ForeColor = System.Drawing.Color.White;
-            this.LookUpEdit1.Properties.Appearance.Options.UseBackColor = true;
-            this.LookUpEdit1.Properties.Appearance.Options.UseFont = true;
-            this.LookUpEdit1.Properties.Appearance.Options.UseForeColor = true;
-            this.LookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.LookUpEdit1.Properties.DisplayMember = "AD";
-            this.LookUpEdit1.Properties.ValueMember = "ID";
-            this.LookUpEdit1.Size = new System.Drawing.Size(204, 28);
-            this.LookUpEdit1.TabIndex = 28;
-            // 
             // lookUpEdit2
             // 
             this.lookUpEdit2.EditValue = "Değer Seçin";
@@ -263,12 +248,31 @@
             this.lookUpEdit2.Size = new System.Drawing.Size(204, 28);
             this.lookUpEdit2.TabIndex = 75;
             // 
+            // lookUpEdit3
+            // 
+            this.lookUpEdit3.EditValue = "Değer Seçin";
+            this.lookUpEdit3.Location = new System.Drawing.Point(92, 79);
+            this.lookUpEdit3.Name = "lookUpEdit3";
+            this.lookUpEdit3.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.lookUpEdit3.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.lookUpEdit3.Properties.Appearance.ForeColor = System.Drawing.Color.White;
+            this.lookUpEdit3.Properties.Appearance.Options.UseBackColor = true;
+            this.lookUpEdit3.Properties.Appearance.Options.UseFont = true;
+            this.lookUpEdit3.Properties.Appearance.Options.UseForeColor = true;
+            this.lookUpEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lookUpEdit3.Properties.DisplayMember = "AD";
+            this.lookUpEdit3.Properties.ValueMember = "ID";
+            this.lookUpEdit3.Size = new System.Drawing.Size(204, 28);
+            this.lookUpEdit3.TabIndex = 76;
+            // 
             // FrmYeniArizaliUrunKaydi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.ClientSize = new System.Drawing.Size(380, 409);
+            this.Controls.Add(this.lookUpEdit3);
             this.Controls.Add(this.lookUpEdit2);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.TxtSeriNo);
@@ -281,7 +285,6 @@
             this.Controls.Add(this.TxtTarih);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.TxtID);
             this.Controls.Add(this.pictureEdit6);
             this.Controls.Add(this.pictureEdit1);
             this.Name = "FrmYeniArizaliUrunKaydi";
@@ -289,16 +292,16 @@
             this.Text = "FrmYeniArizaliUrunKaydi";
             this.Load += new System.EventHandler(this.FrmYeniArizaliUrunKaydi_Load);
             this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.LookUpEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtSeriNo.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit7.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtTarih.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TxtID.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.LookUpEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lookUpEdit3.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -318,10 +321,10 @@
         private System.Windows.Forms.Panel panel3;
         private DevExpress.Utils.Behaviors.BehaviorManager behaviorManager1;
         private System.Windows.Forms.Panel panel1;
-        private DevExpress.XtraEditors.TextEdit TxtID;
         private DevExpress.XtraEditors.PictureEdit pictureEdit6;
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;
         private DevExpress.XtraEditors.LookUpEdit LookUpEdit1;
         private DevExpress.XtraEditors.LookUpEdit lookUpEdit2;
+        private DevExpress.XtraEditors.LookUpEdit lookUpEdit3;
     }
 }

@@ -34,6 +34,7 @@ namespace TeknikServisOOP.Formlar
         {
             t.BASLIK = TxtBaslik.Text.ToString();
             t.ICERIK = TxtIcerik.Text.ToString();
+            t.TARIH = DateTime.Parse(DateTime.Now.ToShortDateString());
             t.DURUM = CheckEdit1.Checked;
 
 

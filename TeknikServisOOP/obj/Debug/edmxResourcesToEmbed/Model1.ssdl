@@ -163,6 +163,8 @@
     <Property Name="GELISTARIH" Type="smalldatetime" />
     <Property Name="CIKISTARIHI" Type="smalldatetime" />
     <Property Name="URUNSERINO" Type="char" MaxLength="5" />
+    <Property Name="URUNDURUM" Type="bit" />
+    <Property Name="URUNDURUMDETAY" Type="varchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="TBLURUNTAKIP">
     <Key>

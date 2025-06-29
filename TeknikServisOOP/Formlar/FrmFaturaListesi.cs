@@ -113,5 +113,17 @@ namespace TeknikServisOOP.Formlar
         {
             listeleme();
         }
+
+        private void gridView1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gridView1_DoubleClick(object sender, EventArgs e)
+        {
+            FrmFaturaKalemPopUp fr = new FrmFaturaKalemPopUp();
+            fr.id = int.Parse(gridView1.GetFocusedRowCellValue("ID").ToString());
+            fr.Show();
+        }
     }
 }

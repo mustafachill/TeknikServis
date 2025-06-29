@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\C# Demos\\TeknikServisOOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmmarkalar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmmarkalar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmnotlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmnotlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmmarkalar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmmarkalar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmnotlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmnotlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,38 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmMarkalar.cs",
-              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmMarkalar.cs",
-              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmMarkalar.cs",
-              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmMarkalar.cs",
-              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmMarkalar.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDgAAAAeAAAAAAAAAA==",
+              "Title": "FrmNotlar.cs",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmNotlar.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmNotlar.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmNotlar.cs*",
+              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmNotlar.cs*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAWwCQAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T08:40:11.525Z",
+              "WhenOpened": "2025-06-29T00:21:34.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Model1.edmx",
-              "RelativeDocumentMoniker": "TeknikServisOOP\\Model1.edmx",
-              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "TeknikServisOOP\\Model1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-06-21T08:39:23.442Z",
-              "EditorCaption": " [Diagram1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmMarkalar.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmMarkalar.cs",
-              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmMarkalar.cs",
-              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmMarkalar.cs [Tasar\u0131m]",
-              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmMarkalar.cs [Tasar\u0131m]",
+              "Title": "FrmNotlar.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmNotlar.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmNotlar.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmNotlar.cs [Tasar\u0131m]*",
+              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmNotlar.cs [Tasar\u0131m]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T08:35:50.595Z",
+              "WhenOpened": "2025-06-29T00:21:33.146Z",
               "EditorCaption": " [Tasar\u0131m]"
             }
           ]

@@ -160,6 +160,8 @@
     <EntitySetMapping Name="TBLURUNKABUL">
       <EntityTypeMapping TypeName="dBTEknikServisModel.TBLURUNKABUL">
         <MappingFragment StoreEntitySet="TBLURUNKABUL">
+          <ScalarProperty Name="URUNDURUMDETAY" ColumnName="URUNDURUMDETAY" />
+          <ScalarProperty Name="URUNDURUM" ColumnName="URUNDURUM" />
           <ScalarProperty Name="URUNSERINO" ColumnName="URUNSERINO" />
           <ScalarProperty Name="ISLEMID" ColumnName="ISLEMID" />
           <ScalarProperty Name="CARI" ColumnName="CARI" />

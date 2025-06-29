@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.PieSeriesView pieSeriesView1 = new DevExpress.XtraCharts.PieSeriesView();
+            DevExpress.XtraCharts.Series series2 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.PieSeriesView pieSeriesView2 = new DevExpress.XtraCharts.PieSeriesView();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmArizaListesi));
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
@@ -61,8 +61,8 @@
             this.pictureEdit6 = new DevExpress.XtraEditors.PictureEdit();
             this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(pieSeriesView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(pieSeriesView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
@@ -107,12 +107,12 @@
             // 
             this.chartControl1.Location = new System.Drawing.Point(5, 84);
             this.chartControl1.Name = "chartControl1";
-            series1.LegendTextPattern = "{A}";
-            series1.Name = "Series 1";
-            series1.SeriesID = 0;
-            series1.View = pieSeriesView1;
+            series2.LegendTextPattern = "{A}";
+            series2.Name = "Series 1";
+            series2.SeriesID = 0;
+            series2.View = pieSeriesView2;
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series1};
+        series2};
             this.chartControl1.Size = new System.Drawing.Size(890, 401);
             this.chartControl1.TabIndex = 0;
             // 
@@ -296,9 +296,9 @@
             this.labelControl3.Appearance.Options.UseForeColor = true;
             this.labelControl3.Location = new System.Drawing.Point(15, 17);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(199, 30);
+            this.labelControl3.Size = new System.Drawing.Size(259, 30);
             this.labelControl3.TabIndex = 0;
-            this.labelControl3.Text = "Arızalı Ürünler Kasa:";
+            this.labelControl3.Text = "Mesaj Beklenen Müşteriler";
             // 
             // pictureEdit2
             // 
@@ -392,9 +392,9 @@
             this.labelControl12.Appearance.Options.UseForeColor = true;
             this.labelControl12.Location = new System.Drawing.Point(15, 17);
             this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(221, 30);
+            this.labelControl12.Size = new System.Drawing.Size(194, 30);
             this.labelControl12.TabIndex = 0;
-            this.labelControl12.Text = "En Fazla Arızalı Marka:";
+            this.labelControl12.Text = "İptal Edilen İşlemler";
             // 
             // pictureEdit6
             // 
@@ -437,8 +437,8 @@
             this.Name = "FrmArizaListesi";
             this.Text = "Arıza Listesi";
             this.Load += new System.EventHandler(this.FrmArizaListesi_Load);
-            ((System.ComponentModel.ISupportInitialize)(pieSeriesView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(pieSeriesView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit4.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
