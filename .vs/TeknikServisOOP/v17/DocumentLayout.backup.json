@@ -3,12 +3,38 @@
   "WorkspaceRootPath": "C:\\C# Demos\\TeknikServisOOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmnotlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|TeknikServisOOP||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|C:\\C# Demos\\TeknikServisOOP\\teknikservisoop\\formlar\\frmnotlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmnotlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\formlar\\frmnotlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|C:\\C# Demos\\TeknikServisOOP\\teknikservisoop\\formlar\\frmnotlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|solutionrelative:teknikservisoop\\formlar\\frmnotlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{789FCB2C-BB57-40DB-9306-04F09F495F84}|TeknikServisOOP\\TeknikServisOOP.csproj|c:\\c# demos\\teknikservisoop\\teknikservisoop\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +44,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmNotlar.cs",
-              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmNotlar.cs",
-              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmNotlar.cs",
-              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmNotlar.cs*",
-              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmNotlar.cs*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAWwCQAAABHAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TeknikServisOOP",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\TeknikServisOOP.csproj",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\TeknikServisOOP.csproj",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\TeknikServisOOP.csproj",
+              "RelativeToolTip": "TeknikServisOOP\\TeknikServisOOP.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-29T10:59:49.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Program.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\Program.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Program.cs",
+              "RelativeToolTip": "TeknikServisOOP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T00:21:34.637Z",
+              "WhenOpened": "2025-06-29T10:54:41.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Form1.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\Form1.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Form1.cs",
+              "RelativeToolTip": "TeknikServisOOP\\Form1.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAawN8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T10:52:45.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Form1.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\Form1.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "TeknikServisOOP\\Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T10:52:44.204Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\FrmLogin.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\FrmLogin.cs*",
+              "RelativeToolTip": "TeknikServisOOP\\FrmLogin.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwCMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T10:37:17.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmLogin.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\FrmLogin.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\FrmLogin.cs [Tasar\u0131m]*",
+              "RelativeToolTip": "TeknikServisOOP\\FrmLogin.cs [Tasar\u0131m]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T00:26:49.702Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmNotlar.cs",
+              "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmNotlar.cs",
+              "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmNotlar.cs",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmNotlar.cs",
+              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmNotlar.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAWwDEAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T00:21:34.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FrmNotlar.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmNotlar.cs",
               "RelativeDocumentMoniker": "TeknikServisOOP\\Formlar\\FrmNotlar.cs",
-              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmNotlar.cs [Tasar\u0131m]*",
-              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmNotlar.cs [Tasar\u0131m]*",
+              "ToolTip": "C:\\C# Demos\\TeknikServisOOP\\TeknikServisOOP\\Formlar\\FrmNotlar.cs [Tasar\u0131m]",
+              "RelativeToolTip": "TeknikServisOOP\\Formlar\\FrmNotlar.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T00:21:33.146Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2025-06-29T00:21:33.146Z"
             }
           ]
         }

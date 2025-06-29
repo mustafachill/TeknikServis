@@ -125,3 +125,4 @@ C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.Fr
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Raporlar.XtraReport1.resources
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmAnasayfa.resources
 C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.Formlar.FrmFaturaKalemPopUp.resources
+C:\C# Demos\TeknikServisOOP\TeknikServisOOP\obj\Debug\TeknikServisOOP.FrmLogin.resources
